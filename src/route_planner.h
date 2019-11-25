@@ -16,7 +16,7 @@ class RoutePlanner {
 
     // The following methods have been made public so we can test them individually.
     void AddNeighbors(RouteModel::Node *current_node);
-    float CalculateHValue(RouteModel::Node const *node);
+    float CalculateHValue(RouteModel::Node *node);
     std::vector<RouteModel::Node> ConstructFinalPath(RouteModel::Node *);
     RouteModel::Node *NextNode();
 
