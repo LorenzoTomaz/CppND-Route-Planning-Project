@@ -27,7 +27,7 @@ git clone git@github.com:udacity/CppND-Route-Planning-Project.git --recurse-subm
   * Mac: same instructions as make - [install Xcode command line tools](https://developer.apple.com/xcode/features/)
   * Windows: recommend using [MinGW](http://www.mingw.org/)
 * IO2D
-  * Remove the IO2D_WITHOUT_SAMPLES and IO2D_WITHOUT_TESTS from IO2D CMakeLists.txt 
+  * Remove the IO2D_SAMPLES and IO2D_TESTS from IO2D CMakeLists.txt 
   * Installation instructions for all operating systems can be found [here](https://github.com/cpp-io2d/P0267_RefImpl/blob/master/BUILDING.md)
   * This library must be built in a place where CMake `find_package` will be able to find it
 
